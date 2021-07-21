@@ -6,14 +6,14 @@ $interpolatedString = "A $currency saved is a $currency earned.";
 
 echo $interpolatedString;
 echo "\n";
-// String concat
 
+// String concat using . operator
 echo $interpolatedString." - Dinesh";
 echo "\n";
 echo "{$interpolatedString} - Dinesh";
 echo "\n";
 
-// String functions
+# ------------------- String functions ------------------------
 
 echo substr($interpolatedString, 0, 10)."\n"; // need to provide the length as 3rd argument. Prints 0 - 9 (inclusive) chars
 echo substr($interpolatedString, -10)."\n"; // last 10 chars
